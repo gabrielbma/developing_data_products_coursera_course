@@ -33,7 +33,16 @@ shinyUI(pageWithSidebar(
                      h2("Model plot"),
                      plotOutput("plot"),
                      h2("Model test"),
-                     verbatimTextOutput("confusionMatrix"))
+                     verbatimTextOutput("confusionMatrix")),
+            tabPanel("Documentation",
+                     h2("Instructions"),
+                     p("The main goal of this application is to allow users to easily inspect the Iris dataset by providing 
+                       built-in features such as dataset summary, plots and some machine learning models."),
+                     p("You can click on the \"Dataset\", \"Summary\", and \"Plots\" tabs to take explore the Iris dataset."),
+                     p("You can also create some machine learning models by choosing one from left side list, clicking on the \"Build model\" button and selection 
+                       the model tab."),
+                     h2("Source code"),
+                     p("The source code is available at: https://github.com/gabrielbma/developing_data_products_coursera_course/tree/master/shinyApplication"))
         )
     )
 ))

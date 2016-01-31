@@ -1,8 +1,8 @@
 name: shinyApplication
 account: gabrielbma
 server: shinyapps.io
-bundleId: 362388
+bundleId: 362404
 url: https://gabrielbma.shinyapps.io/shinyApplication/
-when: 1454210376.94196
+when: 1454212546.91157
 asMultiple: FALSE
 asStatic: FALSE
